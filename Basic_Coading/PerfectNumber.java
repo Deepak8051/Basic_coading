@@ -16,7 +16,7 @@ public class PerfectNumber {
             }
 
         }
-        if(sum==1){
+        if(sum==n){
             System.out.println("num is perfect");
         }
         else {
