@@ -1,0 +1,28 @@
+package org;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Father f= new Father();
+		Son s= new Son();
+		Daughter d = new Daughter();
+
+		System.out.println(s instanceof Father);
+
+		System.out.println(s instanceof Father);
+
+		System.out.println(d instanceof Daughter);
+
+		System.out.println(f instanceof Father);
+
+
+		System.out.println(f instanceof Father);
+
+		System.out.println(new Son() instanceof Father);
+		System.out.println(new Father() instanceof Son);
+
+
+
+	}
+
+}
